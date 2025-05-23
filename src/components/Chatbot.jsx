@@ -171,7 +171,7 @@ const Chatbot = () => {
                             <MessageCircle className="w-6 h-6 text-indigo-300" />
                         </div>
                         <h3 className="text-2xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]">
-                            Chat with Gatot Koco AI <span className="text-xl text-indigo-300">({chatMessages.length})</span>
+                            Chat with Chatbot AI <span className="text-xl text-indigo-300">({chatMessages.length})</span>
                         </h3>
                     </div>
                 </div>
@@ -225,7 +225,7 @@ const Chatbot = () => {
                         {chatMessages.length === 0 ? (
                             <div className="text-center py-8">
                                 <UserCircle2 className="w-12 h-12 text-indigo-300 mx-auto mb-3 opacity-50" />
-                                <p className="text-white/40">No messages yet. Ask about GatotKaca</p>
+                                <p className="text-white/40">No messages yet. Ask about Chatbot AI</p>
                             </div>
                         ) : (
                             chatMessages.map((message) => (
