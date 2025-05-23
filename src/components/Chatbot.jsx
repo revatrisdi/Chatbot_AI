@@ -225,7 +225,7 @@ const Chatbot = () => {
                         {chatMessages.length === 0 ? (
                             <div className="text-center py-8">
                                 <UserCircle2 className="w-12 h-12 text-indigo-300 mx-auto mb-3 opacity-50" />
-                                <p className="text-white/40">No messages yet. Ask about Desa Wonokerso!</p>
+                                <p className="text-white/40">No messages yet. Ask about GatotKaca</p>
                             </div>
                         ) : (
                             chatMessages.map((message) => (
