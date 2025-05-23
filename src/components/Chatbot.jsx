@@ -144,7 +144,7 @@ const Chatbot = () => {
                 </div>
                 <div className="flex-grow min-w-0">
                     <div className="flex items-center justify-between gap-4 mb-2">
-                        <h4 className="font-medium text-white">{isBot ? 'Wonokerso Bot' : 'You'}</h4>
+                        <h4 className="font-medium text-white">{isBot ? 'ChatBot AI' : 'You'}</h4>
                         <span className="text-xs text-white/50 whitespace-nowrap">
                             {formatDate(message.createdAt)}
                         </span>
@@ -193,7 +193,7 @@ const Chatbot = () => {
                                 ref={textareaRef}
                                 value={newMessage}
                                 onChange={handleTextareaChange}
-                                placeholder="Ask about Uday Yapping..."
+                                placeholder="Ask about anything..."
                                 className="w-full p-4 rounded-xl bg-white/5 border border-white/10 text-white placeholder-white/40 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all resize-none min-h-[120px]"
                                 required
                             />
