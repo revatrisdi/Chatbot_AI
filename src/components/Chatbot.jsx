@@ -81,7 +81,7 @@
                 }
     
                 const response = await fetch(
-                    `https://fastrestapis.fasturl.cloud/aillm/gpt-4o-mini?ask=${encodeURIComponent(
+                    `https://fastrestapis.fasturl.link/aillm/gpt-4o-mini?ask=${encodeURIComponent(
                         newMessage
                     )}&style=${contextPrompt}&sessionId=${sessionId}`
                 );
